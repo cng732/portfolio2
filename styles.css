@@ -1,8 +1,39 @@
-.navbar-brand {
-    background-color: blue;
-    color: white;
+body {
+    color: #777777;
 }
 
-.navLinks {
-    
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #ffffff !important;
+}
+
+.about-main {
+
+    background-color: #ffffff;
+    border: #dddddd solid;
+
+}
+
+.formContainer {
+    background-color: #ffffff;
+    border: #dddddd solid ;
+}
+
+
+@media screen and (max-width: 500px) {
+    .profileImg {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width: 800px) {
+    .profileImg {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .profileImg {
+        width: 33%;
+    }
 }
