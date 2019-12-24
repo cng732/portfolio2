@@ -61,6 +61,14 @@ img {
     padding-top: 20px;
 }
 
+.btn {
+    background-color: #4aaaa5 !important;
+    color: #ffffff !important;
+    padding: 5px 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+
 @media screen and (max-width: 500px) {
     .profileImg {
         width: 100%;
