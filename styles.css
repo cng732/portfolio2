@@ -69,6 +69,14 @@ img {
     margin-bottom: 15px;
 }
 
+footer {
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
+
+
 @media screen and (max-width: 500px) {
     .profileImg {
         width: 100%;
